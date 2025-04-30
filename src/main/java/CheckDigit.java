@@ -9,7 +9,7 @@ public class CheckDigit
    {  
      int result = 0;
      int n = 7;
-     for (int i = 0; i <= getNumberOfDigits(num); i++){
+     for (int i = 0; i < getNumberOfDigits(num); i++){
        result += getDigit(num, i)*n;
        n--;
      }
